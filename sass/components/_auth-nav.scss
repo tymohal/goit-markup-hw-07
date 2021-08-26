@@ -1,0 +1,53 @@
+.auth__container {
+  display: flex;
+}
+
+.auth-nav {
+  display: flex;
+}
+
+.auth-nav__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &:not(:first-child) {
+    margin-left: 50px;
+  }
+}
+
+.auth-nav__link {
+  display: block;
+  padding: 32px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  transition: $transition;
+  color: $primary-text-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-text-color;
+  }
+}
+
+.auth-nav__envelope {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  vertical-align: middle;
+}
+
+.auth-nav__smartphone {
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+  vertical-align: middle;
+}
+
+.auth-nav__envelope,
+.auth-nav__smartphone {
+  margin-right: 10px;
+}

@@ -1,0 +1,23 @@
+.nav__logo {
+  display: block;
+  padding: 24px 0 25px 0;
+  text-decoration: none;
+}
+
+.nav__logoweb {
+  color: $accent-text-color;
+  font-family: $logo-font;
+  font-size: 26px;
+  line-height: 1.19;
+  /* letter-spacing: 0.03em; */
+  text-decoration: none;
+}
+
+.nav__logostudio {
+  color: $title-text-color;
+  font-family: $logo-font;
+  font-size: 26px;
+  line-height: 1.19;
+  /* letter-spacing: 0.03em; */
+  text-decoration: none;
+}
