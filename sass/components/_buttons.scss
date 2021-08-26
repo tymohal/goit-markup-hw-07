@@ -8,7 +8,7 @@
   align-items: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
-  padding: 10px 32px;
+  padding: 10px 32px 30px;
   border: 0;
   box-shadow: $button-shadow;
   cursor: pointer;
@@ -63,4 +63,5 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   height: 50px;
+  margin: auto;
 }

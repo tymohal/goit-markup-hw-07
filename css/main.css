@@ -358,7 +358,6 @@ a {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
-  /* letter-spacing: 0.03em; */
   text-decoration: none;
 }
 
@@ -367,7 +366,6 @@ a {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
-  /* letter-spacing: 0.03em; */
   text-decoration: none;
 }
 
@@ -494,13 +492,11 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin: 0;
+  margin-bottom: 30px;
   padding: 0;
-  padding-bottom: 30px;
 }
 
 .page-hero__button {
@@ -515,7 +511,7 @@ a {
           align-items: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
-  padding: 10px 32px;
+  padding: 10px 32px 30px;
   border: 0;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -583,6 +579,7 @@ a {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   height: 50px;
+  margin: auto;
 }
 
 .backdrop {
@@ -859,7 +856,6 @@ a {
 .benefits__text {
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
   margin: 0;
   padding: 0;
@@ -1238,7 +1234,6 @@ a {
   color: #ffffff;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   text-decoration: none;
   font-style: normal;
   display: block;
@@ -1247,7 +1242,6 @@ a {
 .address__email {
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
@@ -1267,7 +1261,6 @@ a {
 .address__tel {
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
@@ -1471,7 +1464,6 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.88;
-  /* identical to box height, or 187% */
   display: block;
   -webkit-box-align: center;
       -ms-flex-align: center;
