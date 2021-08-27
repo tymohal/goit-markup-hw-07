@@ -288,6 +288,11 @@ body {
           box-sizing: border-box;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 a {
   display: block;
 }
@@ -611,11 +616,12 @@ a {
           transform: translate(-50%, -50%);
   min-height: 581px;
   min-width: 528px;
-  background: #fff;
+  background: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
+  text-align: center;
 }
 
 .modal__field {
@@ -625,6 +631,9 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .modal__checkbox {
@@ -791,15 +800,14 @@ a {
   padding: 94px 0;
 }
 
-.benefits__container {
+/*.benefits__container {
   width: 1200px;
   margin-top: 0;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
-
+}*/
 .benefits__list {
   list-style: none;
   display: -webkit-box;
@@ -865,11 +873,6 @@ a {
 }
 
 .product__section {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
   display: block;
   padding-bottom: 94px;
 }
@@ -1192,7 +1195,7 @@ a {
 }
 
 .page-footer__subscribe {
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .subscribe__meta {
@@ -1296,7 +1299,7 @@ a {
   padding: 0;
   margin: 0;
   margin-left: -30px;
-  margin-top: -50px;
+  margin-top: -30px;
 }
 
 .card-set__image {
@@ -1440,7 +1443,7 @@ a {
           justify-content: center;
   margin: 0;
   padding: 0;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .filter__item {
