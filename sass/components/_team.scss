@@ -10,7 +10,7 @@
   justify-content: center;
   padding: 0;
   margin: 0;
-  padding-top: 50px;
+  padding-top: 0;
 }
 
 .team__item {
@@ -29,7 +29,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  margin: 0;
+  margin: 0 0 10px;
   padding: 0;
 }
 
@@ -40,7 +40,8 @@
 }
 
 .team__info {
-  padding: 30px 0;
+  padding: 30px 32px;
+  text-align: center;
 }
 
 .team__position {
