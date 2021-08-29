@@ -1351,6 +1351,7 @@ a {
   letter-spacing: 0.03em;
   color: #ffffff;
   opacity: 0;
+  margin: 0;
 }
 
 .card-set__link {
